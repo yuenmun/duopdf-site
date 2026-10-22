@@ -65,10 +65,10 @@ a { color: var(--accent); text-underline-offset: 3px; }
   font-weight: 700;
   font-size: 19px;
 }
-.brand img { width: 40px; height: 40px; border-radius: 10px; }
+.brand img { width: 40px; height: 40px; border-radius: 10px; box-shadow: 0 0 0 1px var(--hairline); }
 
 .hero { text-align: center; padding: 24px 0 8px; }
-.hero img { width: 128px; height: 128px; border-radius: 29px; box-shadow: 0 12px 32px rgba(15, 40, 84, 0.22); }
+.hero img { width: 128px; height: 128px; border-radius: 29px; box-shadow: 0 0 0 1px var(--hairline), 0 12px 32px rgba(15, 40, 84, 0.22); }
 
 h1 {
   font-family: var(--display);
